@@ -1,0 +1,41 @@
+{
+  "name": "smohring/taxonomy",
+  "description": "Create a taxonomy tree and assign entries via DCA Widget to specific datasets",
+  "keywords": [
+    "taxonomy"
+  ],
+  "type": "contao-module",
+  "license": "Creative Commons Attribution-ShareAlike 4.0 International License",
+  "authors": [
+    {
+      "name": "Steffen Mohring",
+      "email": "me@steffenmohring.de",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "me@steffenmohring.de",
+    "issues": "https://github.com/smohring/Taxonomy/issues",
+    "source": "https://github.com/smohring/Taxonomy"
+  },
+  "require": {
+    "php": ">=5.3",
+    "contao/core": ">=3.0",
+    "contao-community-alliance/composer-plugin": "~2.0"
+  },
+  "replace": {
+    "contao-legacy/taxonomy": "*"
+  },
+  "autoload": {
+    "classmap": [
+      ""
+    ]
+  },
+  "extra": {
+    "contao": {
+      "sources": {
+        "": "system/modules/taxonomy"
+      }
+    }
+  }
+}
