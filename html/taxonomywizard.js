@@ -87,7 +87,7 @@ var AjaxRequestTaxonomy =
                     AjaxRequest.hideBox();
                 }
             }
-        ).post({'action': 'loadTaxonomytree', 'id': id, 'level': level, 'field': field, 'name': name, 'state': 1, 'REQUEST_TOKEN': Contao.request_token});
+        ).post({'action': 'loadTaxonomytree', 'isAjax' :1, 'id': id, 'level': level, 'field': field, 'name': name, 'state': 1, 'REQUEST_TOKEN': Contao.request_token});
 
         return false;
     }

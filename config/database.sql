@@ -22,6 +22,7 @@ CREATE TABLE `tl_taxonomy` (
   `type` varchar(255) NOT NULL default '', 
   `alias` varchar(255) NOT NULL default '',
   `name` varchar(255) NOT NULL default '',
+  `name_en` varchar(255) NOT NULL default '',
   PRIMARY KEY  (`id`),
   KEY `alias` (`alias`)
   KEY `pid` (`pid`)
